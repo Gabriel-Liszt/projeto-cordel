@@ -7,7 +7,7 @@
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
-    --fonte3: 'Dancing Script', cursive;
+    --fonte3: 'Dancing Script';
 }
 
 * {
@@ -61,7 +61,6 @@ section {
 section.normal {
     background-color: white;
     color: black;
-    font-family: var(--fonte3);
 }
 
 section.imagem {
@@ -81,6 +80,7 @@ section.imagem > p {
 
 section > p {
     padding-bottom: 2em;
+    font-family: var(--fonte3);
 }
 
 section#img01 {
